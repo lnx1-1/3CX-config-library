@@ -19,7 +19,7 @@ Windows (default 3CX install):
 - `C:\ProgramData\3CX\Instance1\Data\Http\Interface\provisioning\<tenant>\CustomTemplates\fxs\`
 
 Notes:
-- Replace `<tenant>` with your provisioning folder (example: `ox05wy2n8vt6pa`).
+- Replace `<tenant>` with your provisioning folder.
 - After placing the file, assign the template to the phone model in the 3CX console.
 
 ## Current template
@@ -27,7 +27,6 @@ Notes:
 - File: `templates/yealink/w70b/yealink.W70B_CustomV1.fxs.fxs.xml`
 
 ## What this changes vs stock
-- This is a custom provisioning template (not firmware).
 - The main functional change is the custom template name/model binding so 3CX serves this file.
 - If you need a precise comparison, diff this file against the current stock 3CX W70B template for your build.
 
