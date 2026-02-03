@@ -27,7 +27,9 @@ Notes:
 - File: `templates/yealink/w70b/yealink.W70B_CustomV1.fxs.fxs.xml`
 
 ## What this changes vs stock
-- The main functional change is the custom template name/model binding so 3CX serves this file.
+- Codec order is set to: `PCMA` → `PCMU` → `G722` → `G729` (recommended for stable EU setups).
+- Handset display names use 3CX user names (first + last name) instead of extension numbers.
+- This template is bound as a custom model entry so 3CX serves this file.
 - If you need a precise comparison, diff this file against the current stock 3CX W70B template for your build.
 
 ## Contributing
