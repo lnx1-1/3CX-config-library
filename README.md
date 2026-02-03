@@ -28,9 +28,8 @@ Notes:
 
 ## What this changes vs stock
 - This is a custom provisioning template (not firmware).
-- It is functionally aligned with the stock 3CX Yealink W70B template.
 - The main functional change is the custom template name/model binding so 3CX serves this file.
-- Any additional differences are formatting-only and do not change device behavior.
+- If you need a precise comparison, diff this file against the current stock 3CX W70B template for your build.
 
 ## Contributing
 Add new templates under `templates/<vendor>/<model>/` and document any functional deviations from stock templates.
